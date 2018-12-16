@@ -1,0 +1,76 @@
+/* body {
+    background-image:url("../images/background.jpg");
+} */
+.card-img-top {
+    height: 75px;
+    width: 75px;
+}
+
+img {
+    margin-left:10px;
+}
+
+.jumbotext {
+    text-align:center;
+    background-color:beige;
+}
+
+.jumbotron {
+    border:solid black 2px;
+    background-color:bisque;
+    z-index:1;
+    
+}
+.topcard {
+    margin-bottom:20px;
+}
+
+.card {
+    height:100px;
+    width:250px;
+    margin-left:20px;
+    margin-top:20px;
+    text-align:center;
+    background-color:lightgreen;
+    border:solid black 2px;
+}
+
+.crystalcontainer {
+    margin:auto;
+    background-color:darkgrey;
+    border:solid black 2px;
+}
+
+.crystalscore {
+    width:85px;
+    height:20px;
+    margin-left:5px;
+    background-color:lightpink;
+    float:left;
+    border:solid black 2px;
+    text-align:center;
+    line-height:15px;
+}
+.outcrystalscore {
+    width:75px;
+    height:20px;
+    margin-left:5px;
+    background-color:lightpink;
+    float:left;
+    border:solid black 2px;
+    text-align:center;
+    line-height:15px;
+}
+
+.crystalscorecontainer {
+    margin:auto;
+    margin-top:5px;
+}
+
+.test {
+    margin:none;
+}
+
+
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystal Collector</title>
+</head>
+<body>
+
+<div class="container">
+
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container jumbotext">
+                
+                <h1 class="display-4">Crystal Collector</h1>
+                <h3>Match your current score to the target score to win!</h3>
+                <h4>Each crystal has a different random value!</h4>
+                <h5>The left crystals are low value and right crystals are high value!</h5>
+                <h6>Click on the crystals to begin!</h6>
+                
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="card topcard">
+            <div class="card-body">
+                <p class="card-text clicksleft-text"></p>
+            </div>
+        </div>
+    </div>   
+
+    <div class="row">
+        
+        <span class="crystalcontainer">
+        <img class="card-img-top crystal1-pic" src="assets/images/crystal1.png" alt="Card image cap">
+           
+        <img class="card-img-top crystal2-pic" src="assets/images/crystal2.png" alt="Card image cap">
+           
+        <img class="card-img-top crystal3-pic" src="assets/images/crystal3.png" alt="Card image cap">
+           
+        <img class="card-img-top crystal4-pic" src="assets/images/crystal4.png" alt="Card image cap">
+        </span>
+        
+    </div>
+
+    <div class="row">
+        <span class="crystalscorecontainer">
+            <section class="outcrystalscore crystal1-score">
+
+            </section>
+
+            <section class="crystalscore crystal2-score">
+
+            </section>
+
+            <section class="crystalscore crystal3-score">
+
+            </section>
+
+            <section class="outcrystalscore crystal4-score">
+
+            </section>
+
+        </span>
+
+    </div>
+
+
+
+    <div class="row justify-content-center">
+
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text targetscore-text"></p>
+                    <p class="card-text currentscore-text">Current Score: </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text wincount-text">Win Count: 0</p>
+                    <p class="card-text losscount-text">Loss Count: 0</p>
+                </div>
+            </div>
+
+
+    </div>
+
+</div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
